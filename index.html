@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<head>
+  <title>Anindyo Bose</title>
+  <!-- Bootstrap and Responsive Section -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Jim+Nightshade|Open+Sans|Pacifico|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nova+Oval" rel="stylesheet">
+    <script>
+    $(document).ready(function(){
+        $("div").click(function(){
+            $(this).toggleClass('show-description');
+        });
+    });
+    </script>
+    <!-- javascript Ends Here -->
+<style>
+    .parallax {
+    /* The image used */
+    background-image: url("Images/Back/webback.jpg");
+
+    /* Set a specific height */
+    height: 550px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    h1{
+      color:#faebd7;
+      text-shadow: 2px 2px black;
+      background-color: rgba(255,0,0,0.4);
+    }
+    li{
+        display: inline;
+      }
+
+      #navlist {
+          position: relative;
+      }
+
+      #navlist li {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          position: absolute;
+          top: 0;
+      }
+
+      #navlist li, #navlist a {
+          height: 100px;
+
+          display: block;
+      }
+
+      #fb {
+          left: 0px;
+          width: 100px;
+          background: url('social-media-sprite-sheet.png') 0 0;
+      }
+
+      #tweeter {
+          left:105px;
+          width: 100px;
+          background: url('social-media-sprite-sheet.png') -100px 0;
+      }
+
+      #youtube {
+          left: 210px;
+          width: 100px;
+          background: url('social-media-sprite-sheet.png') -200px 0;
+      }
+      #insta {
+          left: 315px;
+          width: 100px;
+          background: url('social-media-sprite-sheet.png') -300px 0;
+      }
+      #linkedin {
+          left: 420px;
+          width: 100px;
+          background: url('social-media-sprite-sheet.png') -400px 0;
+      }
+      #gplus {
+          left: 525px;
+          width: 100px;
+          background: url('social-media-sprite-sheet.png') -600px 0;
+      }
+
+      #fb a:hover {
+          background: url('social-media-sprite-sheet.png') 0 -100px;
+      }
+
+      #tweeter a:hover {
+          background: url('social-media-sprite-sheet.png') -100px -100px;
+      }
+
+      #youtube a:hover {
+          background: url('social-media-sprite-sheet.png') -200px -100px;
+      }
+      #insta a:hover {
+          background: url('social-media-sprite-sheet.png') -300px -100px;
+      }
+      #linkedin a:hover {
+          background: url('social-media-sprite-sheet.png') -400px -100px;
+      }
+      #gplus a:hover {
+          background: url('social-media-sprite-sheet.png') -600px -100px;
+      }
+    </style>
+</head>
+<body>
+  <div class="back">
+  <!-- Header Section with navigation bar and parallax-->
+<header class="jumbotron text-center"  width=1024px>
+
+<!-- Navigation Bar Starts -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+
+
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+      <!-- Navigation Bar Items On Left Side -->
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#whoWeAre" data-scroll="true" data-id="#whoWeAre">About Me</a></li>
+      <li><a href="#skill" data-scroll="true" data-id="#skill">I.T Skills</a></li>
+      <li><a href="#projects" data-scroll="true" data-id="#projects">Projects</a></li>
+      <li><a href="#contact" data-scroll="true" data-id="#contact">Get In Touch</a></li>
+      <li><a href="https://github.com/anindyo-bose" target="_blank" >Github Link</a></li>
+
+    </ul>
+    <!-- Navigation Bar Items On Right Side -->
+    <ul class="nav navbar-nav navbar-right">
+      <li><h4>Anindyo Bose</h4></li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+<div class="parallax">
+  <br>
+  <br>
+    <img src="Images\Team\Anindyo.jpg" width="200px" height="200px" class="img-circle item" style="align:center">
+    <h1>Anindyo Bose</h1><br>
+
+  </div>
+</div>
+</div>
+
+<!-- About Me Section Starts -->
+  <div class="jumbotron text-center" id="whoWeAre" >
+    <h2>About Me</h2>
+    <br>
+    <p style="font-family: 'Nova Oval', cursive;"><small>I am from Ranchi, India and am studying Computer Science Engineering at RIMT University, Mandi-Gobindgarh,Punjab. (Formely Affilated to I.K.G Punjab Technical University). My interests include frontend development, data science and Java. Amongst non-academic things, I love Listening & Mixing Music and Cricket. </small></p>
+  </div>
+<!-- Skills Section Starts -->
+<div class="jumbotron text-center" id="skill">
+  <h2>I.T Skills</h2>
+      <h4>Java, HTML5, JavaScript, CSS, Json, Postman, Bootstrap, Jquery, Angular Js, SQL </h4>
+
+</div>
+  <!-- Project Section Starts -->
+    <div class="jumbotron text-center" id="projects">
+      <h2 >Projects</h2>
+
+      <div class="tab-content">
+        <div class="row">
+          <ul class="nav nav-pills" style="text-align:center;">
+            <li class="active"><a data-toggle="pill" href="#home"><h4>Inventory Shop</h4></a></li>
+            <li><a data-toggle="pill" href="#menu1"><h4>Business Introduction</h4></a></li>
+            <li><a data-toggle="pill" href="#menu2"><h4>Stock Management Full Stack</h4></a></li>
+            <li><a data-toggle="pill" href="#menu3"><h4>Stock Management FrontEnd</h4></a></li>
+            <li><a><h5>More to be uploaded</h5></a></li>
+          </ul>
+        </div>
+        <div id="home" class="tab-pane fade in active">
+          <h2 style="font-family: Jim Nightshade, cursive;">To make a simple single page website for a Inventory business showcasing their items for sale. Used overlays, gradients in CSS to display prices of every item. Used hover or click events to show the description of each item. Using HTML, JAVASCRIPT & CSS.</h2>
+          <div class="row">
+            <ul class="nav nav-pills" style="text-align:center;">
+              <li><a  href="https://github.com/anindyo-bose/Acadview" target="_blank"><h4>Link to Github</h4></a></li>
+              <li><a  href="http://police-walrus-18841.netlify.com/" target="_blank"><h4>Live Project Link</h4></a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="menu1" class="tab-pane fade">
+          <h2 style="font-family: Jim Nightshade, cursive;">To design a Professional Responsive Business Website. The project involves making a Responsive website using Bootstrap and Media-Queries. The website also includes the use of JQuery for Event-Handlers and other animations.</h2>
+          <div class="row">
+            <ul class="nav nav-pills" style="text-align:center;">
+            <li><a  href="https://github.com/anindyo-bose/Assignment2" target="_blank"><h4>Link to Github</h4></a></li>
+            <li><a  href="http://tailor-ax-11455.netlify.com/" target="_blank"><h4>Live Project Link</h4></a></li>
+          </ul>
+        </div>
+        </div>
+      <div id="menu2" class="tab-pane fade">
+        <h2 style="font-family: Jim Nightshade , cursive;">To make a Professional Responsive Business Web Application for Stock management for a Musical Inventory Shop. The Project involves making a responsive web application using Derby Database for backend. JAVA, JSP for Middleware. And HTML, Bootstrap, JavaScript for frontend.</h2>
+        <div class="row">
+          <ul class="nav nav-pills" style="text-align:center;">
+            <li><a  href="https://github.com/anindyo-bose/Project-Musical-Shop" target="_blank"><h4>Link to Github</h4></a></li>
+          </ul>
+        </div>
+        </div>
+      <div id="menu3" class="tab-pane fade">
+        <h2 style="font-family: Jim Nightshade, cursive;">To make a Professional Responsive Business Web Application for Stock management for a Musical Inventory Shop. The Project involves making a responsive web application using Derby Database for backend. JAVA, JSP for Middleware. And HTML, Bootstrap, JavaScript for frontend.</h2>
+        <div class="row">
+          <ul class="nav nav-pills" style="text-align:center;">
+            <li><a  href="https://github.com/anindyo-bose/front-shop" target="_blank"><h4>Link to Github</h4></a></li>
+            <li><a  href="https://ncm.netlify.com" target="_blank"><h4>Live Project Link</h4></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+  <!-- Get In Touch Starts -->
+  <div class="jumbotron text-center" id="whoWeAre" >
+    <h2 >Get In Touch</h2>
+    <div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6" style="background-color:lavenderblush;">
+    <ul id="navlist">
+      <li id="fb"><a href="https://www.facebook.com/anindyo.bose" target="_blank"></a></li>
+      <li id="tweeter"><a href="https://twitter.com/AnindyoBose"target="_blank"></a></li>
+      <li id="youtube"><a href="https://www.youtube.com/channel/UCxU5AcRj3QQFSD_XBFMu17Q"target="_blank"></a></li>
+      <li id="insta"><a href="https://www.instagram.com/anindyo_bose"target="_blank"></a></li>
+      <li id="linkedin"><a href="https://www.linkedin.com/in/anindyo-bose-356386137/"target="_blank"></a></li>
+      <li id="gplus"><a href="https://plus.google.com/u/0/107125373533304144811"target="_blank"></a></li>
+    </ul>
+  </div>
+  <div class="col-sm-3" ></div>
+  </div>
+  </div>
+
+</div>
+
+</body>
+</html>
