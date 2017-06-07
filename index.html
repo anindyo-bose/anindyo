@@ -16,6 +16,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Jim+Nightshade|Open+Sans|Pacifico|Roboto" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Nova+Oval" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
     <script>
     $(document).ready(function(){
         $("div").click(function(){
@@ -24,132 +25,17 @@
     });
     </script>
     <!-- javascript Ends Here -->
-<style>
-    body{
-      background-color: #e9ebee;
-    }
-    .parallax {
-    /* The image used */
-    background-image: url("Images/Back/webback.jpg");
 
-    /* Set a specific height */
-    height: 550px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
-    h1{
-      color:#faebd7;
-      text-shadow: 2px 2px black;
-      background-color: rgba(255,0,0,0.4);
-    }
-    li{
-        display: inline;
-      }
-
-      #navlist {
-          position: relative;
-      }
-
-      #navlist li {
-          margin: 0;
-          padding: 0;
-          list-style: none;
-          position: absolute;
-          top: 0;
-      }
-
-      #navlist li, #navlist a {
-          height: 100px;
-
-          display: block;
-      }
-
-      #fb {
-          left: 0px;
-          width: 100px;
-          background: url('social-media-sprite-sheet.png') 0 0;
-      }
-
-      #tweeter {
-          left:105px;
-          width: 100px;
-          background: url('social-media-sprite-sheet.png') -100px 0;
-      }
-
-      #youtube {
-          left: 210px;
-          width: 100px;
-          background: url('social-media-sprite-sheet.png') -200px 0;
-      }
-      #insta {
-          left: 315px;
-          width: 100px;
-          background: url('social-media-sprite-sheet.png') -300px 0;
-      }
-      #linkedin {
-          left: 420px;
-          width: 100px;
-          background: url('social-media-sprite-sheet.png') -400px 0;
-      }
-      #gplus {
-          left: 525px;
-          width: 100px;
-          background: url('social-media-sprite-sheet.png') -600px 0;
-      }
-
-      #fb a:hover {
-          background: url('social-media-sprite-sheet.png') 0 -100px;
-      }
-
-      #tweeter a:hover {
-          background: url('social-media-sprite-sheet.png') -100px -100px;
-      }
-
-      #youtube a:hover {
-          background: url('social-media-sprite-sheet.png') -200px -100px;
-      }
-      #insta a:hover {
-          background: url('social-media-sprite-sheet.png') -300px -100px;
-      }
-      #linkedin a:hover {
-          background: url('social-media-sprite-sheet.png') -400px -100px;
-      }
-      #gplus a:hover {
-          background: url('social-media-sprite-sheet.png') -600px -100px;
-      }
-      .about {
-        background: url('Images/Background Images/background (22).jpg');
-      }
-      .skill {
-        background: url('Images/Background Images/background (25).jpg');
-      }
-      .pro {
-        background: url('Images/Background Images/background (30).jpg');
-      }
-      .contact {
-        background: url('Images/Background Images/background (39).jpg');
-      }
-      .col-sm-6{
-        width : 50%;
-      }
-      .col-sm-3{
-        width: 25;
-      }
-    </style>
 </head>
 <body>
   <div class="container-fluid">
   <div >
   <div class="back">
   <!-- Header Section with navigation bar and parallax-->
-<header class="jumbotron text-center"  width=1024px>
+<header class="jumbotron text-center"  width=1024px >
 
 <!-- Navigation Bar Starts -->
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top bar" id="NavBar">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -164,7 +50,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav">
       <!-- Navigation Bar Items On Left Side -->
-      <li class="active"><a href="#">Home</a></li>
+      <li ><a href="#">Home</a></li>
       <li><a href="#whoWeAre" data-scroll="true" data-id="#whoWeAre">About Me</a></li>
       <li><a href="#skill" data-scroll="true" data-id="#skill">I.T Skills</a></li>
       <li><a href="#projects" data-scroll="true" data-id="#projects">Projects</a></li>
@@ -180,7 +66,7 @@
   </div>
 </nav>
 
-<div class="parallax">
+<div class="parallax container-fluid">
   <br>
   <br>
     <img src="Images\Team\Anindyo.jpg" width="200px" height="200px" class="img-circle item" style="align:center">
@@ -198,12 +84,12 @@
   </div>
 <!-- Skills Section Starts -->
 <div class="jumbotron text-center skill" id="skill">
-  <h2>I.T Skills</h2>
-      <h4>Java, HTML5, JavaScript, CSS, Json, Postman, Bootstrap, Jquery, Angular Js, SQL </h4>
+  <h2>I.T Skills</h2><br><br>
+      <h4><i><b> Java, HTML5, JavaScript, CSS, Json, Postman, Bootstrap, Jquery, Angular Js, SQL, php</b></i> </h4>
 
 </div>
   <!-- Project Section Starts -->
-    <div class="jumbotron text-center pro" id="projects">
+    <div class="jumbotron text-center para" id="projects">
       <h2 >Projects</h2>
 
       <div class=><!--
@@ -278,8 +164,8 @@
   </div>
   </div>
   </div>
-<br><br>
-<br><br>
+
+
 </div>
 </body>
 </html>
