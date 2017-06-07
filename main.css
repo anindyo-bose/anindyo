@@ -23,7 +23,7 @@ color:white;
 background-image: url("Images/Background Images/background (30).jpg");
 
 /* Set a specific height */
-height: auto;
+height: autopx;
 
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
@@ -38,7 +38,9 @@ h1{
   padding-top: 50px;
 
 }
-
+li{
+    display: inline;
+  }
 
   #navlist {
       position: relative;
@@ -55,7 +57,7 @@ h1{
   #navlist li, #navlist a {
       height: 100px;
 
-      
+      display: block;
   }
 
   #fb {
@@ -158,7 +160,7 @@ h1{
     background-size: cover;
   }
   #NavBar ul li a{
-
+display: inline-block;
 text-decoration: none;
 cursor: pointer;
 
