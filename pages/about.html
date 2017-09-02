@@ -15,7 +15,7 @@
   <!-- Navigation Bar Starts -->
   <div class="w3-bar w3-teal w3-xlarge w3-top  w3-card-4">
     <a href="../index.html" class="w3-bar-item w3-bottombar w3-border-white w3-hover-border-red w3-button w3-hide-small"> Anindyo Bose</a>
-    <a href="#" class="w3-bar-item w3-bottombar w3-border-white w3-hover-border-red w3-button w3-hide-small w3-right" >Get In Touch</a>
+    <a href="query.html" class="w3-bar-item w3-bottombar w3-border-white w3-hover-border-red w3-button w3-hide-small w3-right" >Contact</a>
     <a href="projects.html" class="w3-bar-item w3-bottombar w3-border-white w3-hover-border-red w3-button w3-hide-small w3-right"> Projects</a>
     <a href="#" class="w3-bar-item w3-bottombar w3-border-red w3-hover-border-white w3-button  w3-right">About Me</a>
     <a href="../index.html" class="w3-bar-item w3-bottombar w3-border-white w3-hover-border-red w3-button w3-hide-small w3-right"> Home</a>
@@ -24,37 +24,39 @@
   <!-- Responsive Header -->
   <div id="demo" class="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium w3-padding-48 w3-margin-top">
     <a href="../index.html" class="w3-bar-item w3-button">Home</a>
-    <a href="#" class="w3-bar-item w3-button">Get In Touch</a>
+    <a href="query.html" class="w3-bar-item w3-button">Contact</a>
     <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
   </div>
   <!-- Navigation Bar ends -->
 
 
 
-  <div class="w3-card w3-center me tp w3-padding">
-    <h2>About Me</h2>
+  <div class="w3-card-4 w3-center me tp w3-padding w3-animate-right">
+    <h1><u>About</u> <u>Me</u></h1>
     <br>
-    <p style="font-family: cursive;" ><big>I am from Ranchi, India and am studying Computer Science Engineering at RIMT University, Mandi-Gobindgarh,Punjab. (Formely Affilated to I.K.G Punjab Technical University). My interests include frontend development, data science and Java. Amongst non-academic things, I love Listening & Mixing Music and Cricket.</big> </p>
+    <p  class="w3-xlarge" ><big>I am from Ranchi, India and am studying Computer Science Engineering at RIMT University, Mandi-Gobindgarh,Punjab. (Formely Affilated to I.K.G Punjab Technical University). My interests include frontend development, data science and Java. Amongst non-academic things, I love Listening & Mixing Music and Cricket.</big> </p>
   </div>
-
-    <ul>
-      <li id="fb"><a href="https://www.facebook.com/anindyo.bose" target="_blank"></li>
-      <li id="git"><a href="https://github.com/anindyo-bose" target="_blank"></li>
-      <li id="link"><a href="https://www.linkedin.com/in/anindyo-bose-356386137/"target="_blank"></a></li>
-      <li id="insta"><a href="https://www.instagram.com/anindyo_bose"target="_blank"></a></li>
-      <li id="tweeter"><a href="https://twitter.com/AnindyoBose"target="_blank"></a></li>
-      <li id="youtube"><a href="https://www.youtube.com/channel/UCxU5AcRj3QQFSD_XBFMu17Q"target="_blank"></a></li>
-    </ul>
-
-<script>
-function myFunction() {
-    var x = document.getElementById("demo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
+  <div class="smar w3-center w3-animate-left">
+    <h1><u>Social</u> <u>Accounts</u></h1>
+      <ul class="w3-margin">
+        <li class="w3-card w3-hover-grayscale"><a href="https://www.facebook.com/anindyo.bose" target="_blank" id="fb"></a></li>
+        <li class="w3-card w3-hover-opacity"><a href="https://github.com/anindyo-bose" target="_blank" id="git"></a></li>
+        <li class="w3-card w3-hover-grayscale"><a href="https://www.linkedin.com/in/anindyo-bose-356386137/"target="_blank" id="link"></a></li>
+        <li class="w3-card w3-hover-grayscale"><a href="https://www.instagram.com/anindyo_bose"target="_blank" id="insta"></a></li>
+        <li class="w3-card w3-hover-grayscale"><a href="https://twitter.com/AnindyoBose"target="_blank" id="tweeter"></a></li>
+        <li class="w3-card w3-hover-grayscale"><a href="https://www.youtube.com/channel/UCxU5AcRj3QQFSD_XBFMu17Q"target="_blank" id="youtube"></a></li>
+      </ul>
+  </div>
+  <script>
+  function myFunction() {
+      var x = document.getElementById("demo");
+      if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+      } else {
+          x.className = x.className.replace(" w3-show", "");
+      }
+  }
+  </script>
+  <div><p></p></div>
 </body>
 </html>

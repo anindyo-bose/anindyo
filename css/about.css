@@ -15,7 +15,7 @@ background: linear-gradient(to right, #4ECDC4,#77a8ff ); /* W3C, IE 10+/ Edge, F
      width: 310px;
      background: url('../Images/about/social.png') -100px -210px;
      height: 75px;
-     margin-top: 50px;
+
  }
 
  #tweeter {
@@ -57,7 +57,10 @@ background: linear-gradient(to right, #4ECDC4,#77a8ff ); /* W3C, IE 10+/ Edge, F
  }
 li{
   display: inline-flex;
-  padding: 5px;
-  margin: 5px;
+  padding: 10px;
+  margin: 2px;
 
+}
+.smar{
+    margin-top: 50px;
 }
