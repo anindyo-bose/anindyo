@@ -4,5 +4,5 @@ background: -webkit-linear-gradient(to right,#4ECDC4,#77a8ff );  /* Chrome 10-25
 background: linear-gradient(to right, #4ECDC4,#77a8ff ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .left{
-  margin-left: 50px;
+  margin-left: 40px;
 }
