@@ -17,11 +17,24 @@ background: linear-gradient(to right, #4ECDC4,#77a8ff ); /* W3C, IE 10+/ Edge, F
      height: 75px;
 
  }
+ #sfb {
+      left: 10px;
+      width: 80px;
+      background: url('../Images/about/social.png') -100px -210px;
+      height: 75px;
+
+  }
 
  #tweeter {
      left:365px;
      width: 310px;
      background: url('../Images/about/social.png') -468px -206px;
+     height: 75px;
+ }
+ #stweeter {
+     left:365px;
+     width: 80px;
+     background: url('../Images/about/social.png') -478px -206px;
      height: 75px;
  }
 
@@ -31,27 +44,61 @@ background: linear-gradient(to right, #4ECDC4,#77a8ff ); /* W3C, IE 10+/ Edge, F
      background: url('../Images/about/social.png') -798px -206px;
      height: 75px;
  }
+ #sgplus {
+     left: 365px;
+     width: 80px;
+     background: url('../Images/about/social.png') -798px -206px;
+     height: 75px;
+ }
+
  #git {
    left: 365px;
    width: 310px;
    background: url('../Images/about/social.png') -1139px -206px;
    height: 75px;
  }
+ #sgit {
+   left: 385px;
+   width: 85px;
+   background: url('../Images/about/social.png') -1145px -208px;
+   height: 75px;
+ }
+
  #link {
    left: 365px;
    width: 310px;
    background: url('../Images/about/social.png') -1460px -206px;
    height: 75px;
  }
+ #slink {
+   left: 365px;
+   width: 80px;
+   background: url('../Images/about/social.png') -1460px -206px;
+   height: 75px;
+ }
+
  #insta {
    left: 365px;
    width: 310px;
    background: url('../Images/about/social.png') -1800px -206px;
    height: 75px;
  }
+ #sinsta {
+   left: 365px;
+   width: 80px;
+   background: url('../Images/about/social.png') -1810px -210px;
+   height: 75px;
+ }
+
  #youtube {
    left: 365px;
    width: 310px;
+   background: url('../Images/about/social.png') -730px -318px;
+   height: 75px;
+ }
+ #syoutube {
+   left: 365px;
+   width: 80px;
    background: url('../Images/about/social.png') -730px -318px;
    height: 75px;
  }
