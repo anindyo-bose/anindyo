@@ -8,3 +8,9 @@ background: linear-gradient(to right, #4ECDC4,#77a8ff ); /* W3C, IE 10+/ Edge, F
   margin-left: 10%;
   margin-right: 10%;
 }
+.frame{
+  width: 100%;
+  height: 880;
+  scrolling : no;
+  
+}
