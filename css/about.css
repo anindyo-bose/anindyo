@@ -57,7 +57,7 @@ background: linear-gradient(to right, #4ECDC4,#77a8ff ); /* W3C, IE 10+/ Edge, F
  }
 li{
   display: inline-flex;
-  padding: 10px;
+  padding: 5px;
   margin: 2px;
 
 }
